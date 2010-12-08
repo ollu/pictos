@@ -18,7 +18,7 @@ package nu.fickla.pictos {
 
 		private function xmlLoaded(event : PictosXMLParserEvent) : void {
 			
-			var imageContainerGrid : ImageContainerGrid = new ImageContainerGrid(event.imagePaths);
+			var imageContainerGrid : ImageContainerGrid = new ImageContainerGrid(event.xmlContent);
 			addChild(imageContainerGrid);
 			
 		}

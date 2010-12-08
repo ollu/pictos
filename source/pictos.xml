@@ -1,147 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Images>
-	<Image path="img/PE055007.png" />
-	<Image path="img/PE066071.png" />
-	<Image path="img/PE076372.png" />
-	<Image path="img/PE091786.png" />
-	<Image path="img/PE116294.png" />
-	<Image path="img/PE144973.png" />
-	<Image path="img/PE150700.png" />
-	<Image path="img/PE150977.png" />
-	<Image path="img/PE150978.png" />
-	<Image path="img/PE152359.png" />
-	<Image path="img/PE159465.png" />
-	<Image path="img/PE160601.png" />
-	<Image path="img/PE161529.png" />
-	<Image path="img/PE161593.png" />
-	<Image path="img/PE161594.png" />
-	<Image path="img/PE162032.png" />
-	<Image path="img/PE162580.png" />
-	<Image path="img/PE163983.png" />
-	<Image path="img/PE163984.png" />
-	<Image path="img/PE165774.png" />
-	<Image path="img/PE166404.png" />
-	<Image path="img/PE166991.png" />
-	<Image path="img/PE168475.png" />
-	<Image path="img/PE168476.png" />
-	<Image path="img/PE168477.png" />
-	<Image path="img/PE168478.png" />
-	<Image path="img/PE168479.png" />
-	<Image path="img/PE169166.png" />
-	<Image path="img/PE169874.png" />
-	<Image path="img/PE169875.png" />
-	<Image path="img/PE170877.png" />
-	<Image path="img/PE170878.png" />
-	<Image path="img/PE172382.png" />
-	<Image path="img/PE172628.png" />
-	<Image path="img/PE172629.png" />
-	<Image path="img/PE174961.png" />
-	<Image path="img/PE174964.png" />
-	<Image path="img/PE176583.png" />
-	<Image path="img/PE176602.png" />
-	<Image path="img/PE176881.png" />
-	<Image path="img/PE176977.png" />
-	<Image path="img/PE177118.png" />
-	<Image path="img/PE177276.png" />
-	<Image path="img/PE179578.png" />
-	<Image path="img/PE180397.png" />
-	<Image path="img/PE180398.png" />
-	<Image path="img/PE180442.png" />
-	<Image path="img/PE180443.png" />
-	<Image path="img/PE180484.png" />
-	<Image path="img/PE180762.png" />
-	<Image path="img/PE180895.png" />
-	<Image path="img/PE181047.png" />
-	<Image path="img/PE181579.png" />
-	<Image path="img/PE181756.png" />
-	<Image path="img/PE184558.png" />
-	<Image path="img/PE184561.png" />
-	<Image path="img/PE184597.png" />
-	<Image path="img/PE184599.png" />
-	<Image path="img/PE185014.png" />
-	<Image path="img/PE185022.png" />
-	<Image path="img/PE185985.png" />
-	<Image path="img/PE186567.png" />
-	<Image path="img/PE186575.png" />
-	<Image path="img/PE186986.png" />
-	<Image path="img/PE187321.png" />
-	<Image path="img/PE188006.png" />
-	<Image path="img/PE188446.png" />
-	<Image path="img/PE189861.png" />
-	<Image path="img/PE189862.png" />
-	<Image path="img/PE189983.png" />
-	<Image path="img/PE190940.png" />
-	<Image path="img/PE191441.png" />
-	<Image path="img/PE191712.png" />
-	<Image path="img/PE191717.png" />
-	<Image path="img/PE192405.png" />
-	<Image path="img/PE194427.png" />
-	<Image path="img/PE196640.png" />
-	<Image path="img/PE197387.png" />
-	<Image path="img/PE198518.png" />
-	<Image path="img/PE198520.png" />
-	<Image path="img/PE200528.png" />
-	<Image path="img/PE200906.png" />
-	<Image path="img/PE200908.png" />
-	<Image path="img/PE200909.png" />
-	<Image path="img/PE200917.png" />
-	<Image path="img/PE200918.png" />
-	<Image path="img/PE201232.png" />
-	<Image path="img/PE201331.png" />
-	<Image path="img/PE202268.png" />
-	<Image path="img/PE202787.png" />
-	<Image path="img/PE202816.png" />
-	<Image path="img/PE202820.png" />
-	<Image path="img/PE203911.png" />
-	<Image path="img/PE203999.png" />
-	<Image path="img/PE204185.png" />
-	<Image path="img/PE204409.png" />
-	<Image path="img/PE204411.png" />
-	<Image path="img/PE204880.png" />
-	<Image path="img/PE205042.png" />
-	<Image path="img/PE205073.png" />
-	<Image path="img/PE205079.png" />
-	<Image path="img/PE205081.png" />
-	<Image path="img/PE205086.png" />
-	<Image path="img/PE205478.png" />
-	<Image path="img/PE205480.png" />
-	<Image path="img/PE205481.png" />
-	<Image path="img/PE205764.png" />
-	<Image path="img/PE205771.png" />
-	<Image path="img/PE205865.png" />
-	<Image path="img/PE206575.png" />
-	<Image path="img/PE208561.png" />
-	<Image path="img/PE208567.png" />
-	<Image path="img/PE211421.png" />
-	<Image path="img/PE211857.png" />
-	<Image path="img/PE211958.png" />
-	<Image path="img/PE211986.png" />
-	<Image path="img/PE212437.png" />
-	<Image path="img/PE212438.png" />
-	<Image path="img/PE212442.png" />
-	<Image path="img/PE212443.png" />
-	<Image path="img/PE212444.png" />
-	<Image path="img/PE212445.png" />
-	<Image path="img/PE212480.png" />
-	<Image path="img/PE213282.png" />
-	<Image path="img/PE213979.png" />
-	<Image path="img/PE214207.png" />
-	<Image path="img/PE214553.png" />
-	<Image path="img/PE214555.png" />
-	<Image path="img/PE214921.png" />
-	<Image path="img/PE214927.png" />
-	<Image path="img/PE215917.png" />
-	<Image path="img/PE216343.png" />
-	<Image path="img/PE216398.png" />
-	<Image path="img/PE216399.png" />
-	<Image path="img/PE216430.png" />
-	<Image path="img/PE216962.png" />
-	<Image path="img/PE217221.png" />
-	<Image path="img/PE217222.png" />
-	<Image path="img/PE218276.png" />
-	<Image path="img/PE219450.png" />
-	<Image path="img/PE219645.png" />
-	<Image path="img/PE220141.png" />
-	<Image path="img/PE223679.png" />
-	<Image path="img/PE225271.png" />
-</Images>
+<xml>
+<product prod_name="BÄSTIS" prod_text="underlägg för matskål" extra_text="Skyddar golvet från matrester och spill" price="29" price_note="/st" img_url="img/PE185022.png" types="djur,hårda" clr_def="" />
+<product prod_name="BÄSTIS" prod_text="burk med lock diameter 12 cm höjd 15 cm" extra_text="" price="49" price_note="" img_url="img/PE205771.png" types="djur,hårda" clr_def="" />
+<product prod_name="BÄSTIS" prod_text="krokar i gummi, olika färger" extra_text="" price="19" price_note="/st" img_url="img/PE205042.png" types="djur,hårda" clr_def="" />
+<product prod_name="BÄSTIS" prod_text="förvaringsväska i plast, höjd 70 cm" extra_text="" price="39" price_note="" img_url="img/PE163984.png" types="djur,mjuka" clr_def="" />
+<product prod_name="BÄSTIS FLÄCK" prod_text="filt i 100% polyester 150x220 cm" extra_text="" price="199" price_note="" img_url="img/PE186575.png" types="djur,mjuka" clr_def="" />
+<product prod_name="BÄSTIS KRONA" prod_text="kudde 95x85 cm" extra_text="" price="199" price_note="" img_url="img/PE184597.png" types="djur,mjuka" clr_def="" />
+<product prod_name="BÄSTIS FLÄCK" prod_text="säng för katt eller hund 43x60 cm" extra_text="" price="179" price_note="" img_url="img/PE150978.png" types="djur" clr_def="" />
+<product prod_name="BÄSTIS" prod_text="kudde diameter 40 cm" extra_text="" price="119" price_note="" img_url="img/PE205865.png" types="djur,mjuka" clr_def="" />
+<product prod_name="BÄSTIS" prod_text="kudde 45x45 cm" extra_text="" price="119" price_note="" img_url="img/PE184599.png" types="djur,mjuka" clr_def="" />
+<product prod_name="BÄSTIS" prod_text="säng för katt eller hund 46x58 cm" extra_text="" price="79" price_note="" img_url="img/PE177118.png" types="djur" clr_def="" />
+<product prod_name="BÄSTIS" prod_text="kattsäng diameter 44 cm" extra_text="" price="119" price_note="" img_url="img/PE205480.png" types="djur" clr_def="" />
+<product prod_name="BÄSTIS" prod_text="tält för katt eller hund, höjd 49 cm" extra_text="" price="99" price_note="" img_url="img/PE211986.png" types="djur" clr_def="" />
+<product prod_name="BÄSTIS" prod_text="lektunnel för katt" extra_text="Blandade färger" price="59" price_note="/st" img_url="img/PE201232.png" types="djur,hårda" clr_def="" />
+<product prod_name="BÄSTIS KRONA" prod_text="matskål i rostfritt stål, 0.3 liters" extra_text="" price="29" price_note="" img_url="img/PE180397.png" types="djur,hårda" clr_def="" />
+<product prod_name="BÄSTIS" prod_text="matskål 2 liter svart" extra_text="" price="5" price_note="" img_url="img/PE211958.png" types="djur,hårda" clr_def="" />
+<product prod_name="BÄSTIS FLÄCK" prod_text="matskål i stengods 0.35 liters och 0.7 liters" extra_text="" price="39" price_note="/set" img_url="img/PE185985.png" types="djur,hårda" clr_def="" />
+<product prod_name="BÄSTIS" prod_text="matskål i form av en blomma 0.2 liters" extra_text="" price="49" price_note="/set" img_url="img/PE205481.png" types="djur,hårda" clr_def="" />
+<product prod_name="BÄSTIS KRONA" prod_text="hundleksak i gummi" extra_text="" price="39" price_note="" img_url="img/PE188006.png" types="djur" clr_def="" />
+<product prod_name="BÄSTIS FLÄCK" prod_text="koppel/halsband av narvaläder/stål" extra_text="" price="129" price_note="" img_url="img/PE185014.png" types="djur" clr_def="" />
+<product prod_name="BÄSTIS" prod_text="hundleksak" extra_text="" price="29" price_note="/st" img_url="img/PE180398.png" types="djur,mjuka" clr_def="" />
+<product prod_name="BÄSTIS" prod_text="kattleksak" extra_text="" price="19" price_note="/st" img_url="img/PE150977.png" types="djur,mjuka" clr_def="" />
+<product prod_name="IKEA STOCKHOLM" prod_text="kandelaber, 33 cm hög i rostfritt stål" extra_text="För 8 ljus." price="279" price_note="" img_url="img/PE172382.png" types="hårda,vuxen" clr_def="" />
+<product prod_name="IKEA STOCKHOLM" prod_text="skål i rostfritt stål, 42 cm i diameter" extra_text="Mjuka plastfötter skonar underlaget och gör att skålen står stadigt." price="279" price_note="" img_url="img/PE169166.png" types="hårda,vuxen" clr_def="" />
+<product prod_name="LJUSÅS SALBO" prod_text="bordslampa olivgrön/grön" extra_text="Dimbar, anpassa ljusstyrkan efter behov." price="299" price_note="" img_url="img/PE206575.png" types="hårda,vuxen" clr_def="" />
+<product prod_name="IKEA PS" prod_text="klocka, röd, med plats för småförvaring" extra_text="1 fast hyllplan medföljer." price="299" price_note="" img_url="img/PE116294.png" types="hårda,vuxen" clr_def="" />
+<product prod_name="ANRIK" prod_text="kaffe-/tepress 1,2 liter i rostfritt stål" extra_text="Dubbla väggar som bevarar dryckens värme längre." price="279" price_note="" img_url="img/PE197387.png" types="hårda,vuxen" clr_def="" />
+<product prod_name="SVALA" prod_text="barnbord med 2 stolar i plywood/björk" extra_text="Kan målas eller betsas." price="249" price_note="" img_url="img/PE091786.png" types="hårda,barn" clr_def="" />
+<product prod_name="SALONG" prod_text="vas i munblåst glas, 44 cm hög" extra_text="Blandade färger." price="139" price_note="/st" img_url="img/PE194427.png" types="hårda,vuxen" clr_def="" />
+<product prod_name="SALONG" prod_text="vas i munblåst glas, 44 cm hög" extra_text="Röd." price="139" price_note="" img_url="img/PE189861.png" types="hårda,vuxen" clr_def="" />
+<product prod_name="SALONG" prod_text="vas i munblåst glas, 44 cm hög" extra_text="Vit." price="139" price_note="" img_url="img/PE189862.png" types="hårda,vuxen" clr_def="" />
+<product prod_name="HATTEN" prod_text="sidobord, 40 cm, diameter, transparent." extra_text="Praktiskt förvaringsutrymme i bordet." price="199" price_note="" img_url="img/PE055007.png" types="hårda,vuxen" clr_def="" />
+<product prod_name="MÅLA" prod_text="ritstativ i barrträ/vit" extra_text="Hoppfällbart, spar plats då det inte används." price="199" price_note="" img_url="img/PE219450.png" types="hårda" clr_def="" />
+<product prod_name="IKEA 365+" prod_text="uppläggningsfat, 3 våningar i klarglas/rostfritt stål" extra_text="Löstagbara fat, kombinera och variera höjden efter behov" price="149" price_note="" img_url="img/PE180762.png" types="hårda,vuxen" clr_def="" />
+<product prod_name="CELEBER" prod_text="olje-/vinägerset, 3 delar i fältspatporslin/akacia" extra_text="Droppstopp som fångar upp eventuellt spill." price="149" price_note="" img_url="img/PE202268.png" types="hårda,vuxen" clr_def="" />
+<product prod_name="BLOMSTER" prod_text="ljusstakar i munblåst klarglas, 3 st" extra_text="" price="149" price_note="" img_url="img/PE216430.png" types="hårda,vuxen" clr_def="" />
+<product prod_name="SMÄRT" prod_text="bordslampa i munblåst glas, 48 cm hög." extra_text="Ger ett mjukt stämningsljus." price="179" price_note="" img_url="img/PE200917.png" types="hårda,vuxen" clr_def="" />
+<product prod_name="SMÄRT" prod_text="bordslampa i munblåst glas, 48 cm hög." extra_text="Ger ett mjukt stämningsljus." price="179" price_note="" img_url="img/PE200918.png" types="hårda,vuxen" clr_def="" />
+<product prod_name="SMÄRT" prod_text="bordslampa i munblåst glas, 48 cm hög." extra_text="Ger ett mjukt stämningsljus." price="179" price_note="" img_url="img/PE203911.png" types="hårda,vuxen" clr_def="" />
+<product prod_name="BLOMSTER" prod_text="vas i munblåst glas, 45 cm hög" extra_text="" price="169" price_note="" img_url="img/PE205081.png" types="hårda,vuxen" clr_def="" />
+<product prod_name="KNUBBIG" prod_text="bordslampa, 11 cm hög i munblåst glas, svart" extra_text="" price="79" price_note="" img_url="img/PE200908.png" types="hårda,vuxen" clr_def="" />
+<product prod_name="KNUBBIG" prod_text="bordslampa, 11 cm hög i munblåst glas, rosa" extra_text="" price="79" price_note="" img_url="img/PE200909.png" types="hårda,vuxen" clr_def="" />
+<product prod_name="KNUBBIG" prod_text="bordslampa, 11 cm hög i munblåst glas, vit" extra_text="" price="79" price_note="" img_url="img/PE201331.png" types="hårda,vuxen" clr_def="" />
+</xml>

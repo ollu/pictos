@@ -25,25 +25,27 @@ package nu.fickla.pictos.data {
 		private function LoadXML(event : Event) : void {
 			
 			var newEvent : PictosXMLParserEvent = new PictosXMLParserEvent(PictosXMLParserEvent.LOAD_COMPLETE);
-			newEvent.imagePaths = ParseXML(event.target.data);
+			newEvent.xmlContent = ParseXML(event.target.data);
 			dispatchEvent(newEvent);
 
 		}
 
 		private function ParseXML(xmlRawData : String) : Array {
 			
-			var xmlData : XML = new XML();
-			xmlData = new XML(xmlRawData);
+			var xmlData : XML = new XML(xmlRawData);
+			var xmlDataList : XMLList = xmlData.product;
 
-			var imageSrcList : XMLList = xmlData.Image.attribute("path");
+			var entries : Array = new Array();
 
-			var arr : Array = new Array();
-
-			for each (var imageSrc : XML in imageSrcList) {
-				arr.push(imageSrc);
+			for each (var xmlSrc : XML in xmlDataList) {
+				var entry : PictosEntry = new PictosEntry(
+												xmlSrc.attribute("img_url"),
+												xmlSrc.attribute("prod_name")
+				);
+				entries.push(entry);
 			}
 
-			return arr;
+			return entries;
 			
 		}
 		
