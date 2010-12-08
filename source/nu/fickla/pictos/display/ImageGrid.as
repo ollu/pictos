@@ -1,4 +1,4 @@
-package nu.fickla.imageGallery.display {
+package nu.fickla.pictos.display {
 	import flash.display.Sprite;
 
 	/**
