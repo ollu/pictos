@@ -32,7 +32,6 @@ package nu.fickla.pictos.display {
 				imageContainer.y = IMAGE_HEIGHT * rowCount + SPACE_BETWEEN_ROWS;
 				
 				imageContainer.buttonMode = true;
-				imageContainer.mouseChildren = false;
 
 				addChild(imageContainer);
 				
