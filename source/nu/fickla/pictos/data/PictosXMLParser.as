@@ -11,14 +11,14 @@ package nu.fickla.pictos.data {
 	 * @author Ola
 	 */
 	public class PictosXMLParser extends EventDispatcher {
-		private const XML_URL : String = "pictos.xml";
+		private const URL_TO_XML : String = "pictos.xml";
 
 		public function PictosXMLParser(target : IEventDispatcher = null) {
 			super(target);
 
 			var xmlLoader : URLLoader = new URLLoader();
 			xmlLoader.addEventListener(Event.COMPLETE, LoadXML);
-			xmlLoader.load(new URLRequest(XML_URL));
+			xmlLoader.load(new URLRequest(URL_TO_XML));
 
 		}
 
