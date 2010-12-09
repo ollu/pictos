@@ -50,11 +50,11 @@ package nu.fickla.pictos.display {
 			} else {
 				_imageLoader.scrollRect = null;
 				_imageLoader.scaleX = _imageLoader.scaleY = 1;
+				parent.swapChildren(parent.getChildAt(parent.getChildIndex(this)), parent.getChildAt(parent.numChildren-1));
 				caption.visible = false;
 				scaled = true;
 			}
 		}
-
 		private function loadCompleteHandler(event : Event) : void {
 			addChild(_imageLoader);
 			createCaption(_captionText);
