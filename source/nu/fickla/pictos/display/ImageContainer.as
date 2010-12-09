@@ -1,6 +1,8 @@
 package nu.fickla.pictos.display {
 	import nu.fickla.utils.Library;
 
+	import com.greensock.TweenLite;
+
 	import flash.display.Loader;
 	import flash.display.Sprite;
 	import flash.events.Event;
@@ -16,48 +18,70 @@ package nu.fickla.pictos.display {
 	 * @author Ola
 	 */
 	public class ImageContainer extends Sprite {
-		private var _imageLoader : Loader;
-		private var _captionText : String;
+		private var imageLoader : Loader;
+		private var captionText : String;
 		private var caption :TextField;
 		private var Helvetica : Font = Library.createFont("Helvetica");
 		private var scaled : Boolean;
 		private var imageMask : Rectangle;
-		private const scaleFactor : Number = .5; 
+		private const scaleFactor : Number = .5;
+		private var originX : int;
+		private var originY : int;
 
 		public function ImageContainer(imageURL : String, captionText : String) {
 			scaled = false;
 
-			_captionText = captionText;
+			this.captionText = captionText;
+			this.addEventListener(Event.ADDED_TO_STAGE, addedToStage, false, 0, true);
 
 			imageMask = new Rectangle(0, 0, 200, 200);
 
 			var request : URLRequest = new URLRequest(imageURL);
-			_imageLoader = new Loader();
-			_imageLoader.contentLoaderInfo.addEventListener(Event.COMPLETE, loadCompleteHandler);
-			_imageLoader.load(request);
-			_imageLoader.scrollRect = imageMask;
-			_imageLoader.scaleX = _imageLoader.scaleY = scaleFactor;
+			imageLoader = new Loader();
+			imageLoader.contentLoaderInfo.addEventListener(Event.COMPLETE, loadCompleteHandler, false, 0, true);
+			imageLoader.load(request);
+			imageLoader.scrollRect = imageMask;
+			imageLoader.scaleX = imageLoader.scaleY = scaleFactor;
 
-			_imageLoader.addEventListener(MouseEvent.CLICK, imageClicked);
+			imageLoader.addEventListener(MouseEvent.CLICK, imageClicked, false, 0, true);
+			
+		}
+
+		private function addedToStage(event : Event) : void {
+			this.removeEventListener(Event.ADDED_TO_STAGE, addedToStage);
+
+			originX = this.x;
+			originY = this.y;
 		}
 
 		private function imageClicked(event : MouseEvent) : void {
 			if (scaled) {
-				_imageLoader.scrollRect = imageMask;
-				_imageLoader.scaleX = _imageLoader.scaleY = scaleFactor;
+				imageLoader.scrollRect = imageMask;
+				imageLoader.scaleX = imageLoader.scaleY = scaleFactor;
+
 				caption.visible = true;
 				scaled = false;
+
+				TweenLite.to(this, .2, {x: originX, y: originY});
+
 			} else {
-				_imageLoader.scrollRect = null;
-				_imageLoader.scaleX = _imageLoader.scaleY = 1;
+				imageLoader.scrollRect = null;
+				imageLoader.scaleX = imageLoader.scaleY = 1;
+
 				parent.swapChildren(parent.getChildAt(parent.getChildIndex(this)), parent.getChildAt(parent.numChildren-1));
+
+				var toX : int = stage.stageWidth / 2 - imageLoader.width / 2;
+				var toY : int = stage.stageHeight / 2 - imageLoader.height / 2;
+				TweenLite.to(this, .3, {x: toX, y: toY});
+
 				caption.visible = false;
 				scaled = true;
 			}
 		}
+
 		private function loadCompleteHandler(event : Event) : void {
-			addChild(_imageLoader);
-			createCaption(_captionText);
+			addChild(imageLoader);
+			createCaption(captionText);
 		}
 
 		private function createCaption(captionText : String) : void {
@@ -74,7 +98,7 @@ package nu.fickla.pictos.display {
 			caption.selectable = false;
 			caption.embedFonts = true;
 			caption.text = captionText;
-			caption.y = _imageLoader.height + 10;
+			caption.y = imageLoader.height + 10;
 
 			addChild(caption);
 		}

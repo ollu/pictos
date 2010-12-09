@@ -8,10 +8,11 @@ package nu.fickla.pictos.display {
 	 */
 	public class ImageContainerGrid extends Sprite {
 		
-		private const imageWidth : uint = 100;
-		private const imageHeight : uint = 150;
-		private const imageSpace : uint = 20;
-		private const imagePerRow : uint = 6;
+		private const IMAGE_WIDTH : uint 			= 100;
+		private const IMAGE_HEIGHT : uint 			= 150;
+		private const SPACE_BETWEEN_IMAGES : uint 	= 20;
+		private const SPACE_BETWEEN_ROWS : uint 	= 20;
+		private const NUMBER_OF_ROWS : uint 		= 3;
 
 		public function ImageContainerGrid(imagePaths : Array) {
 			
@@ -22,18 +23,22 @@ package nu.fickla.pictos.display {
 		private function placeImages(xmlContent : Array) : void {
 			var counter : uint = 0;
 			var rowCount : uint = 0;
+			var imagePerRow : int = Math.ceil(xmlContent.length / NUMBER_OF_ROWS);
 
 			for each (var xmlEntry : PictosEntry in xmlContent)
 			{
 				var imageContainer : ImageContainer = new ImageContainer(xmlEntry.img_url, xmlEntry.img_caption);
-				imageContainer.x = imageWidth * counter + imageSpace;
-				imageContainer.y = imageHeight * rowCount + imageSpace;
+				imageContainer.x = 30 + (SPACE_BETWEEN_IMAGES + IMAGE_WIDTH) * counter;
+				imageContainer.y = IMAGE_HEIGHT * rowCount + SPACE_BETWEEN_ROWS;
+				
+				imageContainer.buttonMode = true;
+				imageContainer.mouseChildren = false;
 
 				addChild(imageContainer);
 				
 				counter++;
 
-				if(counter % imagePerRow == 0)
+				if(counter >= imagePerRow)
 				{
 					rowCount++;
 					counter = 0;
