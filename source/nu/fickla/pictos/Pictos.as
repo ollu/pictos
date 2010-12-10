@@ -51,11 +51,11 @@ package nu.fickla.pictos {
 			rightScrollerControl.addEventListener(MouseEvent.MOUSE_OVER, scrollerOver);
 			rightScrollerControl.addEventListener(MouseEvent.MOUSE_OUT, scrollerOut);
 
-			rightScrollerControl.buttonMode = true;
-			rightScrollerControl.mouseChildren = false;
+			rightScrollerControl.buttonMode 	= true;
+			rightScrollerControl.mouseChildren 	= false;
 
-			leftScrollerControl.buttonMode = true;
-			leftScrollerControl.mouseChildren = false;
+			leftScrollerControl.buttonMode 		= true;
+			leftScrollerControl.mouseChildren 	= false;
 			
 			addChild(leftScrollerControl);
 			addChild(rightScrollerControl);
